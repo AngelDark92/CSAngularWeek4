@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app='Menu'>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Restaurant - La Tavernetta</title>
+</head>
+
+<body>
+  <h1>Welcome to our Restaurant</h1>
+
+  <ui-view></ui-view>
+
+
+  <!-- Libraries -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.29/angular-ui-router.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <!-- Modules -->
+  <script src="src/menuapp/menuapp.module.js"></script>
+  <script src="src/menuapp/data.module.js"></script>
+
+  <!-- Routes -->
+  <script src="src/routes.js"></script>
+
+  <!-- 'menuapp' module artifacts -->
+  <script src="src/menuapp/menudata.service.js"></script>
+  <script src="src/menuapp/categories.component.js"></script>
+  <script src="src/menuapp/items.component.js"></script>
+  <script src="src/menuapp/menu.controller.js"></script>
+
+</body>
+
+</html>
